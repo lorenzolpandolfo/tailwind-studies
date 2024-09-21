@@ -5,40 +5,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
 </head>
-<body>
-  <header class="h-12 px-3 lg:px-20 flex justify-between items-center">
-    <img class="max-h-12" src="./assets/images/instagram/Instagram_logo.png" alt="logo">
-    <div>
-      <img class="size-8" src="./assets/images/instagram/like.svg">
-    </div>
-  </header>
 
+
+<body class="flex flex-col items-center">
   <main>
-    <section class="flex flex-row overflow-x-scroll no-scrollbar">
-      <div class="flex flex-col items-center min-w-max">
-        <img class="rounded-full w-16 sm:w-24 md:w-32 lg:w-32 mt-4 ml-4 mr-4 mb-1" src="https://thispersondoesnotexist.com">
+    <header class="h-12 flex justify-between mx-2 items-center">
+      <img class="max-h-12" src="./assets/images/instagram/Instagram_logo.png" alt="logo">
+      <img class="size-8" src="./assets/images/instagram/like.svg" alt="like">
+    </header>
+    <section class="stories flex flex-row overflow-x-scroll no-scrollbar">
+      <div class="flex flex-col items-center min-w-max mx-2">
+        <img class="rounded-full w-16 sm:w-24 md:w-32 lg:w-32 mt-4 mb-1" src="https://thispersondoesnotexist.com" alt="icon">
         <span>lorenzo</span>
       </div>
-      <div class="flex flex-col items-center min-w-max">
-        <img class="rounded-full w-16 sm:w-24 md:w-32 lg:w-32 mt-4 ml-4 mr-4 mb-1" src="https://thispersondoesnotexist.com">
+      <div class="flex flex-col items-center min-w-max mx-2">
+        <img class="rounded-full w-16 sm:w-24 md:w-32 lg:w-32 mt-4  mb-1" src="https://thispersondoesnotexist.com" alt="icon">
         <span>lia</span>
       </div>
-      <div class="flex flex-col items-center min-w-max">
-        <img class="rounded-full w-16 sm:w-24 md:w-32 lg:w-32 mt-4 ml-4 mr-4 mb-1" src="https://thispersondoesnotexist.com">
+      <div class="flex flex-col items-center min-w-max mx-2">
+        <img class="rounded-full w-16 sm:w-24 md:w-32 lg:w-32 mt-4  mb-1" src="https://thispersondoesnotexist.com" alt="icon">
         <span>malu</span>
       </div>
-      <div class="flex flex-col items-center min-w-max">
-        <img class="rounded-full w-16 sm:w-24 md:w-32 lg:w-32 mt-4 ml-4 mr-4 mb-1" src="https://thispersondoesnotexist.com">
+      <div class="flex flex-col items-center min-w-max mx-2">
+        <img class="rounded-full w-16 sm:w-24 md:w-32 mt-4  mb-1" src="https://thispersondoesnotexist.com" alt="icon">
         <span>malu</span>
       </div>
     </section>
-
     <section>
-      <div class="">
-        <div>
-          
+      <div class="post">
+        <div class="flex items-center my-2 justify-between">
+          <div class="flex">
+            <img class="rounded-full mx-2 w-10 sm:w-12 md:w-16 lg:w-18" src="https://thispersondoesnotexist.com" alt="pfp">
+            <div class="flex flex-col justify-center">
+              <span>lorenzo</span>
+              <span class="text-xs md:text-base lg:text-lg xl:text-xl">há 12 minutos</span>
+            </div>
+          </div>
+          <img class="rotate-90 mr-2 size-4" src="./assets/images/instagram/see more.svg" alt="icon">
         </div>
         <img src="./assets/images/instagram/post.jpg">
+        <div class="flex justify-between m-2">
+          <div class="flex gap-1.5 items-center">
+            <img class="md:size-12" src="./assets/images/instagram/like.svg" alt="icon">
+            <span class="md:text-3xl">32</span>
+            <img class="md:size-12" src="./assets/images/instagram/comment.svg" alt="icon">
+            <span class="md:text-3xl">2</span>
+            <img class="md:size-12" src="./assets/images/instagram/send.svg" alt="icon">
+          </div>
+          <img class="md:size-12" src="./assets/images/instagram/save.svg" alt="icon">
+        </div>
       </div>
     </section>
   </main>
