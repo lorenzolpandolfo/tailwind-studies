@@ -7,32 +7,40 @@
 </head>
 
 
-<body class="flex flex-col items-center">
+<body>
+  <header class="h-12 sticky top-0 z-10 w-full px-2 bg-white flex justify-between items-center">
+    <img class="max-h-12" src="./assets/images/instagram/Instagram_logo.png" alt="logo">
+    <img class="size-8" src="./assets/images/instagram/like.svg" alt="like">
+  </header>
   <main>
-    <header class="h-12 flex justify-between mx-2 items-center">
-      <img class="max-h-12" src="./assets/images/instagram/Instagram_logo.png" alt="logo">
-      <img class="size-8" src="./assets/images/instagram/like.svg" alt="like">
-    </header>
     <section class="stories flex flex-row overflow-x-scroll no-scrollbar">
       <div class="flex flex-col items-center min-w-max mx-2">
         <img class="rounded-full w-16 sm:w-24 md:w-32 lg:w-32 mt-4 mb-1" src="https://thispersondoesnotexist.com" alt="icon">
-        <span>lorenzo</span>
+        <span>Lorenzo</span>
       </div>
       <div class="flex flex-col items-center min-w-max mx-2">
         <img class="rounded-full w-16 sm:w-24 md:w-32 lg:w-32 mt-4  mb-1" src="https://thispersondoesnotexist.com" alt="icon">
-        <span>lia</span>
+        <span>Lia</span>
       </div>
       <div class="flex flex-col items-center min-w-max mx-2">
         <img class="rounded-full w-16 sm:w-24 md:w-32 lg:w-32 mt-4  mb-1" src="https://thispersondoesnotexist.com" alt="icon">
-        <span>malu</span>
+        <span>Malu</span>
       </div>
       <div class="flex flex-col items-center min-w-max mx-2">
         <img class="rounded-full w-16 sm:w-24 md:w-32 mt-4  mb-1" src="https://thispersondoesnotexist.com" alt="icon">
-        <span>malu</span>
+        <span>Yudi</span>
+      </div>
+      <div class="flex flex-col items-center min-w-max mx-2">
+        <img class="rounded-full w-16 sm:w-24 md:w-32 mt-4  mb-1" src="https://thispersondoesnotexist.com" alt="icon">
+        <span>Lucas</span>
+      </div>
+      <div class="flex flex-col items-center min-w-max mx-2">
+        <img class="rounded-full w-16 sm:w-24 md:w-32 mt-4  mb-1" src="https://thispersondoesnotexist.com" alt="icon">
+        <span>Bruna</span>
       </div>
     </section>
     <section>
-      <div class="post">
+      <div class="post my-5">
         <div class="flex items-center my-2 justify-between">
           <div class="flex">
             <img class="rounded-full mx-2 w-10 sm:w-12 md:w-16 lg:w-18" src="https://thispersondoesnotexist.com" alt="pfp">
@@ -43,7 +51,7 @@
           </div>
           <img class="rotate-90 mr-2 size-4" src="./assets/images/instagram/see more.svg" alt="icon">
         </div>
-        <img src="./assets/images/instagram/post.jpg">
+        <img class="w-full" src="./assets/images/instagram/post.jpg">
         <div class="flex justify-between m-2">
           <div class="flex gap-1.5 items-center">
             <img class="md:size-12" src="./assets/images/instagram/like.svg" alt="icon">
@@ -55,7 +63,39 @@
           <img class="md:size-12" src="./assets/images/instagram/save.svg" alt="icon">
         </div>
       </div>
+      <div class="post my-5">
+        <div class="flex items-center my-2 justify-between">
+          <div class="flex">
+            <img class="rounded-full mx-2 w-10 sm:w-12 md:w-16 lg:w-18" src="https://thispersondoesnotexist.com" alt="pfp">
+            <div class="flex flex-col justify-center">
+              <span>Lia</span>
+              <span class="text-xs md:text-base lg:text-lg xl:text-xl">há 12 minutos</span>
+            </div>
+          </div>
+          <img class="rotate-90 mr-2 size-4" src="./assets/images/instagram/see more.svg" alt="icon">
+        </div>
+        <img class="w-full" src="./assets/images/instagram/post2.jpg">
+        <div class="flex justify-between m-2">
+          <div class="flex gap-1.5 items-center">
+            <img class="md:size-12" src="./assets/images/instagram/like.svg" alt="icon">
+            <span class="md:text-3xl">51</span>
+            <img class="md:size-12" src="./assets/images/instagram/comment.svg" alt="icon">
+            <span class="md:text-3xl">12</span>
+            <img class="md:size-12" src="./assets/images/instagram/send.svg" alt="icon">
+          </div>
+          <img class="md:size-12" src="./assets/images/instagram/save.svg" alt="icon">
+        </div>
+      </div>
     </section>
   </main>
+  <footer class="sticky bottom-0 bg-white w-full h-10 content-center items-center border-t">
+    <div class="flex justify-between px-2">
+      <img class="size-5" src="./assets/images/instagram/home.png">
+      <img class="size-5" src="./assets/images/instagram/search.png">
+      <img class="size-5" src="./assets/images/instagram/instagram-post.png">
+      <img class="size-5" src="./assets/images/instagram/video.png">
+      <img class="rounded-full size-5" class="rounded-full" src="https://thispersondoesnotexist.com">
+    </div>
+  </footer>
 </body>
 </html>
